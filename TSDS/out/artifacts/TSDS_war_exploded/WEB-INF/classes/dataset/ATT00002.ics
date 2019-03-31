@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+PRODID:-//Events Calendar//iCal4j 1.0//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Shanghai
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Shanghai
+X-LIC-LOCATION:Asia/Shanghai
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20190322T092334Z
+DTSTART;TZID=Asia/Shanghai:20190326T113000
+DTEND;TZID=Asia/Shanghai:20190326T123000
+SUMMARY:张莹发起的视频会议
+TZID:Asia/Shanghai
+DESCRIPTION:会议主题:\n\n\n会议时间: \n2019-03-25 星期一 20:30-21:30(太平洋标准时间)\n2019-
+ 03-26 星期二 11:30-12:30(中国标准时间)\n\n会议内容: \n\n\n参会人员: \nXiang，21860405@zju.
+ edu.cn，张莹
+LOCATION:
+SEQUENCE:1
+UID:20190322T092334Z-uidGen@alimeeting-conference011023120018.center.na61
+ 
+ATTENDEE;ROLE=CHAIR;CN=x.li@alibaba-inc.com:mailto:x.li@alibaba-inc.com
+ATTENDEE;ROLE=CHAIR;CN=21860405@zju.edu.cn:mailto:21860405@zju.edu.cn
+ATTENDEE;ROLE=CHAIR;CN=wb-zy308675@alibaba-inc.com:mailto:wb-zy308675@ali
+ baba-inc.com
+ORGANIZER;CN="张莹":mailto:wb-zy308675@alibaba-inc.com
+END:VEVENT
+END:VCALENDAR

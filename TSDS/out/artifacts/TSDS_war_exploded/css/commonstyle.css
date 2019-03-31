@@ -1,0 +1,118 @@
+body{
+    background-color:white;
+    font-family:arial,helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    border:none;
+}
+
+div{
+    border:none;
+    margin:0;
+    padding:0;
+    font-weight:bold;
+}
+
+/*标题栏*/
+
+#headline{
+    width: 100%;
+    height:50px;
+    background-color:#232323;
+    background-origin:border-box;
+    color:white;
+}
+
+
+#headTag1{
+    width:100%;
+    font-family: Arial, Verdana, sans-serif;
+    font-size:200%;
+    font-weight:bold;
+    color:white;
+    padding:20px;
+}
+
+#headTag2{
+    width:50%;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight:bold;
+    color:#bbbbbb;
+    padding:20px;
+}
+
+#headTag3{
+    width:50%;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight:bold;
+    color:#bbbbbb;
+    padding:20px;
+}
+
+
+/*容器管理边栏和主体部分*/
+.flex-container{
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+}
+
+/*侧边栏*/
+
+.flex-sidebar{
+    background-color: #333333;
+    flex: 1
+}
+
+#sideTag1{
+    color: white;
+    padding:20px;
+}
+
+#sideTag2{
+    color: #4596FC;
+    font-size:80%;
+    padding:20px;
+}
+
+#sideTag3{
+    color: #4596FC;
+    font-size:40%;
+    padding:20px;
+}
+
+/*主体内容*/
+
+.flex-content{
+    background-color: white;
+    flex: 5
+}
+
+
+/*容器二级标题和二级内容*/
+.flex-container-column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: #ededed;
+}
+
+.flex-h2line{
+    padding-left:20px;
+    padding-top:20px;
+    background-color: white;
+    flex: 1;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.flex-h2content{
+    flex: 14;
+    padding-left:20px;
+    padding-top:20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+
+
